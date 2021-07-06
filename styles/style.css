@@ -1,0 +1,112 @@
+/*Agregando estilos:
+Posicionamiento --> static, absolute, relative, fixed
+Modelo de caja (Box model) --> margin, border, padding, content
+Tipografía --> tipos, tamaños de fuente, etc
+Estilos visuales --> box-shadow, border-radius, gradient, etc
+Otros --> reglas CSS y más */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 66.5%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    height: 80px;
+     }
+
+header .header-discount{
+    background-color:  #1CD1B0;
+    font-size: 1.2rem;
+}
+
+header .header-shop{
+    display: flex;
+    background-color: #00669F;
+    color: #FFFFFF;
+    align-items: center;
+    
+
+}
+header .header-shop h1{
+    font-size: 2.0rem;
+    
+}
+header .header-shop img{
+    height: 50px;
+}
+
+main .main-login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 70px auto;
+    height: 150px;
+    
+}
+
+main .main-login h2{
+    font-size: 3.2rem;
+  
+
+}
+
+main .main-login .main-login--input input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  outline: none; 
+  font-size: 1.2rem;
+
+
+}
+main .main-login .main-login--input input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    outline: none; 
+    font-size: 1.2rem;
+  
+  
+  }
+main .main-login .main-login--input input:hover {
+    box-shadow: 0 10px 6px 0 #20212447;
+    border-color:#00669F;
+}
+
+main .main-login .main-login--button{
+    margin: 15px auto;
+}
+
+main .button-login{
+    width: 100%;
+    height: 25px;
+    background-color:#1CD1B0 ;
+    text-align: center;
+    border: none;
+    border-radius: 23px;
+}
+
+main .main-register{
+    
+}
+
+.footer-DH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    margin-top: 100px;
+    height: 30px;
+    color: #FFFFFF;
+    
+    font-size: 1.2rem;
+}
+

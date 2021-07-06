@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 66.5%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    height: 80px;
+     }
+
+header .header-discount{
+    background-color:  #1CD1B0;
+    font-size: 1.2rem;
+}
+
+header .header-shop{
+    display: flex;
+    background-color: #00669F;
+    color: #FFFFFF;
+    align-items: center;
+    
+
+}
+header .header-shop h1{
+    font-size: 2.0rem;
+    
+}
+header .header-shop img{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-DH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    margin-top: 100px;
+    height: 30px;
+    color: #FFFFFF;
+    
+    font-size: 1.2rem;
+}
