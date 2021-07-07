@@ -8,8 +8,12 @@
 html{
     font-size: 66.5%;
     font-family: 'Roboto', sans-serif;
-    
+      
 }
+body{
+    height: 100vh;  
+}
+
 
 header{
     height: 80px;
@@ -34,12 +38,12 @@ header .header-shop img{
     height: 50px;
 }
 
-
-main .main-register{
+main .main-contact{
     max-width: 50%;
     margin: auto;
 }
-main .main-register .main-title{
+
+main .main-contact .main-title{
     font-size: 1.7rem;
 }
 
@@ -57,18 +61,12 @@ input:hover{
 input::placeholder{
     color: black;
 }
-select{
+
+textarea{
     width: 100%;
     margin: 10px auto;
-    height: 40px;
+    
     font-size: 1.2rem;
-}
-select::placeholder{
-    color: black;
-}
-select:hover{
-    box-shadow: 0 10px 6px 0 #20212447;
-    border-color:#00669F;
 }
 
 .main-form--buttons{
@@ -88,14 +86,6 @@ select:hover{
     background-color: #1CD1B0;
     font-weight: bold;
 }
-
-.main-login{
-    font-size: 1.4rem;
-    text-align: center;
-}
-
-
-
 
 
 .footer-DH{
