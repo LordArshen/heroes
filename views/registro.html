@@ -19,14 +19,14 @@
     </header> 
     <main>
         <section>
-            <div>
+            <div class="main-title">
                 <h2>Resgistro</h2>
-            </div>
-            <form action="" method="get"></form>
-            <label><input type="text"></label>
-            <label><input type="email" name="email" id="input-email" placeholder="correo electronico"></label>
-            <label><input type="password" name="" id=""></label>
-            <label><select name="pais">
+                <div class="main-register">
+                <form class="main-form" action="" method="get">
+                <label><input type="text" name="nombres" placeholder="Nombre y Apellido"></label>
+                <label><input type="email" name="email" id="input-email" placeholder="correo electronico"></label>
+                <label><input type="password" name="password" id="password" placeholder="Contraseña"></label>
+                <label><select name="pais">
                 <option value="Elegir" id="AF">Elegir país</option>
                 <option value="Afganistán" id="AF">Afganistán</option>
                 <option value="Albania" id="AL">Albania</option>
@@ -266,7 +266,12 @@
                 <option value="Zambia" id="ZM">Zambia</option>
                 <option value="Zimbabue" id="ZW">Zimbabue</option>
                 </select></label>
-
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Registrar">
+            </form>
+                </div>
+            </div>
+           
         </section>
 
 
